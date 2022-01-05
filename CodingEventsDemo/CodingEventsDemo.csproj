@@ -3,13 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-
-
-  <ItemGroup>
-    <Folder Include="Views\Events\" />
-  </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Events\Add.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
   </ItemGroup>
 </Project>
